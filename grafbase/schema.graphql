@@ -1,0 +1,12 @@
+type Author @model @search {
+  firstName: String
+  lastName: String
+  chapter: String
+  squadName: String
+  email: String
+  providerName: String
+  model: String
+  tribeName: String
+  company: String
+}
+
